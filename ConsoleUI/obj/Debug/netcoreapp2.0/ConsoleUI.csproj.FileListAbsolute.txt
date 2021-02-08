@@ -16,3 +16,5 @@ C:\Users\mttoksoy\source\repos\RecapProject\ConsoleUI\obj\Debug\netcoreapp2.0\Co
 C:\Users\mttoksoy\source\repos\RecapProject\ConsoleUI\obj\Debug\netcoreapp2.0\ConsoleUI.csproj.CopyComplete
 C:\Users\mttoksoy\source\repos\RecapProject\ConsoleUI\obj\Debug\netcoreapp2.0\ConsoleUI.dll
 C:\Users\mttoksoy\source\repos\RecapProject\ConsoleUI\obj\Debug\netcoreapp2.0\ConsoleUI.pdb
+C:\Users\mttoksoy\source\repos\RecapProject\ConsoleUI\bin\Debug\netcoreapp2.0\Core.dll
+C:\Users\mttoksoy\source\repos\RecapProject\ConsoleUI\bin\Debug\netcoreapp2.0\Core.pdb

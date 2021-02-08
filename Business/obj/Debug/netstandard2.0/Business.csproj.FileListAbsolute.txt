@@ -12,3 +12,5 @@ C:\Users\mttoksoy\source\repos\RecapProject\Business\obj\Debug\netstandard2.0\Bu
 C:\Users\mttoksoy\source\repos\RecapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\mttoksoy\source\repos\RecapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\mttoksoy\source\repos\RecapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\mttoksoy\source\repos\RecapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\mttoksoy\source\repos\RecapProject\Business\bin\Debug\netstandard2.0\Core.pdb
