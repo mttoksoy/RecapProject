@@ -27,12 +27,12 @@ namespace ConsoleUI
             //EfCarDal efCarDal=new EfCarDal();
             //efCarDal.Update(updateCar);
 
-            foreach (var carDetail in carService.GetCarDetails())
+            foreach (var carDetail in carService.GetCarDetails().Data)
             {
                 Console.WriteLine(carDetail.CarName + "-" + carDetail.BrandName + "-" + carDetail.ColorName + "-" + carDetail.DailyPrice);
             }
 
-            foreach (var carDetail in carService.GetCarsByBrandId(2))
+            foreach (var carDetail in carService.GetCarsByBrandId(2).Data)
             {
                 Console.WriteLine(carDetail.CarName);
             }
@@ -41,10 +41,11 @@ namespace ConsoleUI
             //carService.Delete(carDeleted);
 
             IColorService color=new ColorManager(new EfColorDal());
-            foreach (var colors in color.GetAll())
+            foreach (var colors in color.GetAll().Data)
             {
                 Console.WriteLine(colors.ColorName);
             }
+
 
             Console.ReadLine();
         }

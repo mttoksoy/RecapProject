@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -20,47 +21,50 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-        public List<Car> GetAll()
+        public IDataResult<List<Car>> GetAll()
         {
-            return _carDal.GetAll();
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll());
         }
 
-        public List<Car> GetCarsByBrandId(int id)
+        public IDataResult<List<Car>> GetCarsByBrandId(int id)
         {
-            return _carDal.GetAll(c => c.BrandId == id);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.BrandId == id),message:"Ürün getirildi");
         }
 
-        public List<Car> GetCarsByColorId(int id)
+        public IDataResult<List<Car>> GetCarsByColorId(int id)
         {
-            return _carDal.GetAll(c => c.ColorId == id);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == id));
         }
 
-        public void Add(Car car,Brand brand)
+        public IResult Add(Car car,Brand brand)
         {
             if (car.DailyPrice>0 && brand.BrandName.Length>2)
             {
                 _carDal.Add(car);
+               return new SuccessResult("Ürün eklendi");
             }
             else
             {
-                Console.WriteLine("Ürün şartları sağlamadığı için eklenmedi.");
+                return new ErrorResult("Ürün Eklenemedi");
             }
             
         }
 
-        public List<CarDetailsDto> GetCarDetails()
+        public IDataResult<List<CarDetailsDto>> GetCarDetails()
         {
-           return _carDal.GetCarDetails();
+           return new SuccessDataResult<List<CarDetailsDto>>(_carDal.GetCarDetails(),"Ürünler getirildi"); 
         }
 
-        public void Delete(Car car)
+        public IResult Delete(Car car)
         {
             _carDal.Delete(car);
+            return new SuccessResult("Ürün Silindi");
         }
 
-        public void Update(Car car)
+        public IResult Update(Car car)
         {
             _carDal.Update(car);
+            return new SuccessResult("Ürünle güncellendi");
         }
     }
 }
