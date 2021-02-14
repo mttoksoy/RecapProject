@@ -47,6 +47,9 @@ namespace ConsoleUI
             }
 
 
+            UserManager userManager=new UserManager(new EfUserDal());
+            userManager.GetUserById(150);
+
             Console.ReadLine();
         }
     }

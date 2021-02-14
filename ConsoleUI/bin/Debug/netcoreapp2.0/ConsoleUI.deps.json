@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "3f35cbaf28504c60e10f76b2dae39deb2843d03b"
+    "signature": "37025d265b95b9cf4fca9221742e7d867c67bf7b"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,10 +10,16 @@
         "dependencies": {
           "Business": "1.0.0",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "JetBrains.Annotations": "2020.3.0"
         },
         "runtime": {
           "ConsoleUI.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2020.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1140,7 +1146,8 @@
       "Business/1.0.0": {
         "dependencies": {
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "JetBrains.Annotations": "2020.3.0"
         },
         "runtime": {
           "Business.dll": {}
@@ -1148,6 +1155,7 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "JetBrains.Annotations": "2020.3.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "runtime": {
@@ -1157,6 +1165,7 @@
       "DataAccess/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
+          "JetBrains.Annotations": "2020.3.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "runtime": {
@@ -1165,7 +1174,8 @@
       },
       "Entities/1.0.0": {
         "dependencies": {
-          "Core": "1.0.0"
+          "Core": "1.0.0",
+          "JetBrains.Annotations": "2020.3.0"
         },
         "runtime": {
           "Entities.dll": {}
@@ -1178,6 +1188,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "JetBrains.Annotations/2020.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FnX06vtxuoZnhZdR6UHt5kJ7HUC/syODfGLnhPDn1x5sXvvepNyCl4jMtPUzJfsPWh7q0Jo+AIYz5xaVbbyikA==",
+      "path": "jetbrains.annotations/2020.3.0",
+      "hashPath": "jetbrains.annotations.2020.3.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

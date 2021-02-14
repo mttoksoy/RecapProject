@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Business.Abstract;
+using Business.Contants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
@@ -28,7 +29,8 @@ namespace Business.Concrete
 
         public IDataResult<List<Car>> GetCarsByBrandId(int id)
         {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.BrandId == id),message:"Ürün getirildi");
+
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.BrandId == id),Messages.ItemGet);
         }
 
         public IDataResult<List<Car>> GetCarsByColorId(int id)
@@ -36,9 +38,9 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == id));
         }
 
-        public IResult Add(Car car,Brand brand)
+        public IResult Add(Car car)
         {
-            if (car.DailyPrice>0 && brand.BrandName.Length>2)
+            if (car.DailyPrice>0 )
             {
                 _carDal.Add(car);
                return new SuccessResult("Ürün eklendi");

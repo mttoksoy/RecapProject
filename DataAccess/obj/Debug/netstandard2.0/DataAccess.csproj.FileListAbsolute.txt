@@ -4,7 +4,6 @@ C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\bin\Debug\netstandard2.0\
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
-C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
@@ -12,3 +11,4 @@ C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
 C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\mttoksoy\source\repos\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
