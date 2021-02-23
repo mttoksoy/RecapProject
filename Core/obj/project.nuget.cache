@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "eArMUS3UgEMTKesK8z86/h8S7M8JZ5mP6UYM9P2njkDDj8q4WnExMGFPX1Kwks/a3fJXbQC0oYiPPsSe+3uSbA==",
+  "dgSpecHash": "9xd2d7dW0pWc3xwj+Rf4j6A9l3O1pftTT8Ef6b4SgGdOPGQNe2I3QW9g2Pz7TC1xg8PQSqgvfPfBufNMslxf5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\mttoksoy\\source\\repos\\RecapProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mttoksoy\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\mttoksoy\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\mttoksoy\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
+    "C:\\Users\\mttoksoy\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\mttoksoy\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\jetbrains.annotations\\2020.3.0\\jetbrains.annotations.2020.3.0.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
@@ -63,6 +68,7 @@
     "C:\\Users\\mttoksoy\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\mttoksoy\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\mttoksoy\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
